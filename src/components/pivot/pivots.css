@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pivot-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #e0e0e0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.pivot-header {
+    background: #f5f5f5;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.pivot-header th {
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    padding: 8px 15px;
+}
+
+.pivot-row {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.pivot-row:hover {
+    background-color: #f8f9fa;
+}
+
+.pivot-cell {
+    padding: 8px 15px;
+    color: #444;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-right: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.pivot-cell-empty {
+    border-right: 1px solid #e0e0e0;
+    background: white;
+}
+
+.pivot-body {
+    background: white;
+}
+
+.expand-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: #666;
+    font-size: 10px;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.expand-button:hover {
+    color: #333;
+}
+
+.cell-content {
+    flex: 1;
+}
+
+.total-row {
+    background-color: #fafafa;
+    font-weight: 500;
+}
+
+.total-row .pivot-cell {
+    color: #333;
+}
+
+.left-tables {
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .table-row {
+    display: flex;
+  }
+  
+  .table-cell {
+    flex: 1;
+    border: 1px solid #ddd;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .table-header {
+    background: #DDD;
+    text-align: center;
+    display: flex;
+  }
+  
+  .table-body {
+    display: flex;
+    flex-direction: column;
+  }
+  

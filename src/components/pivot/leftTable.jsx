@@ -16,7 +16,7 @@ const renderRows = (rows) => {
     return elements;
 };
 
-export const Pivots = ({ filters, rows }) => {
+export const LeftTable = ({ filters, rows }) => {
     const processedRows = renderRows(rows);
     return (
         <div className="left-tables">

@@ -1,4 +1,4 @@
-export const Columns = ({ cols, heads }) => {
+export const RightTable = ({ cols, heads }) => {
 
     const styles = (v) => {
         if (!v) {

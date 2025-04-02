@@ -5,8 +5,13 @@ This project is a simple pivot table implementation using React, built without a
 ## Features
 
 - Display and manipulate data in a pivot table format.
-- Drag and drop functionality to rearrange rows and columns.
+- checkbox for filters to rearrange rows and columns.
 - Real-time data aggregation and calculation.
+
+- <img width="1202" alt="Screenshot 2025-04-03 at 01 28 44" src="https://github.com/user-attachments/assets/c28e7e2c-7268-4a7d-acd5-1bd21e36f198" />
+- <img width="1406" alt="Screenshot 2025-04-03 at 01 28 55" src="https://github.com/user-attachments/assets/cc82f84b-3a74-4dce-bb22-2b3c5b45bde9" />
+- <img width="1413" alt="Screenshot 2025-04-03 at 01 29 07" src="https://github.com/user-attachments/assets/7f4b6c5c-fc5f-45a8-8812-ada791ceb71c" />
+
 
 ## Getting Started
 

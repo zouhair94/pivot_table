@@ -1,0 +1,22 @@
+/* table  tbody> tr > td {
+  border: 0.5px solid black;
+  border-collapse: collapse;
+} */
+
+tr{
+  margin: 0;
+  padding: 0;
+  min-width: 150px;
+  width: 150px;
+  text-overflow: ellipsis;
+  height: 23px;
+}
+
+td{
+  margin: 0;
+  padding: 0;
+  min-width: 150px;
+  width: 150px;
+  text-overflow: ellipsis;
+  height: 23px;
+}
